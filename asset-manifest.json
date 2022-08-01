@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/inStock-Store/static/css/main.6f98f6bd.css",
+    "main.js": "/inStock-Store/static/js/main.938d4f40.js",
+    "static/media/slider1.jpg": "/inStock-Store/static/media/slider1.f1240436adbd7aab66b8.jpg",
+    "static/media/slider3.jpg": "/inStock-Store/static/media/slider3.9e618a89f13b21f8f06e.jpg",
+    "static/media/slider2.jpeg": "/inStock-Store/static/media/slider2.ea249f07582a95615ffa.jpeg",
+    "index.html": "/inStock-Store/index.html",
+    "main.6f98f6bd.css.map": "/inStock-Store/static/css/main.6f98f6bd.css.map",
+    "main.938d4f40.js.map": "/inStock-Store/static/js/main.938d4f40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f98f6bd.css",
+    "static/js/main.938d4f40.js"
+  ]
+}
