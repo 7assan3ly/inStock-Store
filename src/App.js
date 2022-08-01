@@ -16,7 +16,7 @@ const App = () => {
     <Router className='App'>
       <NavCom />
       <Routes>
-      <Route exact path="/" element={<Home />} />
+      <Route path="/inStock-Store" element={<Home />} />
       <Route path="/category/:category" element={<Category />} />
       <Route path="/product/:id" element={<Product />} />
       <Route exact path="/cart" element={<Cart />} />

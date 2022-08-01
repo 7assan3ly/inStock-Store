@@ -35,10 +35,10 @@ const NavCom = () => {
                             navbarScroll
                         >
                             <Nav.Link>
-                                <Link className='navLink' exact to="/">Home</Link>
+                                <Link className='navLink' to="/inStock-Store">Home</Link>
                             </Nav.Link>
                             <Nav.Link>
-                                <Link className='navLink' exact to="/">Hot Deals</Link>
+                                <Link className='navLink' to="/inStock-Store">Hot Deals</Link>
                             </Nav.Link>
                             <NavDropdown title="Categories" id="navbarScrollingDropdown">
                                 {Category.map((catg, i) => {
