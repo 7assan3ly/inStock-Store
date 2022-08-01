@@ -1,0 +1,99 @@
+.cart {
+    border-top: 1px solid #e7dede;
+}
+
+.cartTitle {
+    font-family: 'Edu VIC WA NT Beginner', cursive !important;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 10px 0 10px 40px;
+}
+.cartWrapper {
+    border-top: 1px solid #e7dede;
+    display: flex;
+    justify-content: space-around; 
+    cursor: default;
+}
+
+.cartEmpty {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.cartProduct {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e7dede;
+}
+.cartProduct:last-of-type {
+    border: none;
+}
+.cProductImg {
+    margin-right: 100px;
+    margin-left: 50px;
+    width: 150px;
+    height: 220px;
+}
+.cProdutDet {
+    font-weight: 700;
+}
+.cProductDel {
+    font-weight: 700;
+    margin-left: 100px;
+    background-color: rgb(155, 11, 11);
+    color: #fff;
+    padding: 5px;
+    height: 30px;
+    width: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.cartSummary {
+    width: 35%;
+    margin: 100px 50px 0px 100px;
+}
+.cartSumm {
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 15px;
+}
+.cSummaryTitle{
+    margin-bottom: 25px;
+}
+.cSummaryDet {
+    display: flex;
+    flex-direction: column;
+}
+.sumItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.sumItemTitle {
+    color: #9c9c9c;
+}
+
+.sumTotal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.checkOut {
+    margin-bottom: 15px;
+    border: none;
+    background-color: #3429d4;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 15px;
+    width: 100%;
+}

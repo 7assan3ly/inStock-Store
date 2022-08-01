@@ -1,0 +1,26 @@
+.who {
+    background-color: rgba(250, 249, 249, 0.7);
+    padding: 50px 0;
+}
+.who>.container {
+    width: 50% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.whoTitle {
+    font-family: 'Edu VIC WA NT Beginner', cursive !important;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.whoBtn {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: rgb(37, 37, 37);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}

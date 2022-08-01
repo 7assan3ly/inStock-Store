@@ -1,0 +1,106 @@
+.productPage {
+    border-top: 1px solid #e7dede;
+}
+.prodTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.prodTopImgs {
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.prodImg {
+    width: 460px;
+    height: 650px;
+}
+
+.prodName {
+    font-weight: 700;
+    font-size: 35px;
+}
+.prodPrice {
+    font-weight: 600;
+    font-size: 20px;
+}
+.rateStar {
+    color: #6466f0;
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 3px;
+}
+.rateCount {
+    margin-left: 5px;
+}
+
+.prodBtn {
+    padding: 8px 25px;
+}
+
+
+.prodBtm {
+    border-top: 1px solid #e7dede;
+    margin-bottom: 100px;
+}
+.simProTitle {
+    font-weight: 700;
+    margin-top: 25px;
+}
+.productWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.catgProduct {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 24vw;
+    margin-top: 100px;
+}
+a {
+    text-decoration: none !important;
+}
+.productImg {
+    width: 220px;
+    height: 330px;
+    cursor: pointer;
+    transition: 0.25s all ease;
+    border-radius: 20px;
+    background-color: #f7f7f7;
+}
+.productImg:hover {
+    opacity: 0.5;
+}
+.productNaP {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 20px;
+}
+.productName {
+    font-size: 14px;
+    color: rgb(55, 65, 81);
+    font-weight: 600;
+}
+.productPrice {
+    font-size: 14px;
+    font-weight: 500;
+    color: #161616;
+}
+
+
+.LoadCon{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.LoadRight span {
+    margin-bottom: 20px;
+}

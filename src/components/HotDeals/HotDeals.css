@@ -1,0 +1,62 @@
+.hotDeals{
+    margin-bottom: 50px;
+}
+
+.hotDealsTitle {
+    font-family: 'Edu VIC WA NT Beginner', cursive !important;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.hotDealsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hotDealsCard {
+    margin-bottom: 30px;
+    max-height: 400px;
+    width: 250px;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    -webkit-box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    -moz-box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.cardName {
+    margin-top: 10px;
+    font-weight: 600;
+    max-height: 10px;
+    font-size: 15px;
+    text-align: center; 
+    color: #161616;
+}
+
+.cardImg {
+    width: 100px;
+    height: 150px;
+}
+
+.cardPrice {
+    font-weight: 600;
+    margin-top: 10px;
+    color: rgb(12, 7, 83);
+}
+.linkk {
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardCart {
+    width: 100%;
+    border: none;
+    color: #fff;
+    background-color: rgb(12, 7, 83);
+    padding: 10px 0;
+    margin-top: 10px;
+}
